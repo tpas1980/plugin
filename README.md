@@ -27,11 +27,13 @@ plugin/
 
 چون ماژول به‌صورت محلی و نصب‌نشده است، باید مسیر پوشه را به `sys.path` اضافه کنید:
 
+> نکته: باید حتما وقتی پوشه را استخراج کردین در درایو C اپلود کنید
+
 ```python
 import sys
 
 # آدرس مسیر اصلی پوشه‌ای که فایل pkgs.py داخلشه
-sys.path.append(r"C:\Users\Administrator\python\plugin\main")
+sys.path.append(r"C:\plugin\main")
 
 from pkgs import get_today, trans, Saved
 

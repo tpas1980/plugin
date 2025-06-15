@@ -44,7 +44,7 @@ print(get_today())
 print(trans("Hello world"))
 
 # ذخیره فایل
-Saved("y", "report", "txt", "محتوای نمونه")
+Saved("y", "report", "txt", "hello my friend")
 ```
 
 > ❗ توجه: اگر فایل را به صورت درست سازمان‌دهی کرده باشید (وجود `__init__.py`) ماژول به‌خوبی import می‌شود.
